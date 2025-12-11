@@ -1,0 +1,53 @@
+🚖 Task: Taxi Booking System with Driver and Vehicle Profiles
+🎯 Goal:
+Design a Dart system to manage drivers and vehicles in a taxi company. The system should support different types of drivers (full-time, part-time), vehicle types, and keep booking history.
+
+🏗️ Core Classes:
+1. Person (Base class)
+Properties: name, age, contactNumber
+
+Method: displayProfile()
+
+2. Driver (Inherits Person)
+Properties: driverId, licenseNumber, experienceYears
+
+Named constructor: Driver.fromMap(Map data)
+
+Override displayProfile() with super.displayProfile() + more info
+
+3. FullTimeDriver and PartTimeDriver (Inherit from Driver)
+FullTimeDriver → additional property: monthlySalary
+
+PartTimeDriver → additional property: hourlyRate
+
+Override displayProfile() in each
+
+4. Vehicle
+Properties: vehicleNumber, brand, seatingCapacity
+
+Constructor + Vehicle.fromMap(Map data)
+
+Method: vehicleInfo()
+
+5. Booking
+Properties: bookingId, driver, vehicle, pickupLocation, dropLocation, fare
+
+Constructor should receive instances of Driver and Vehicle
+
+Method: showBookingSummary()
+
+✅ Example Scenario:
+Create:
+
+A full-time driver named Ramesh
+
+A part-time driver named John
+
+A vehicle (Innova)
+
+A vehicle (Auto-rickshaw)
+
+Bookings involving both drivers with vehicles
+
+Print summaries using showBookingSummary()
+

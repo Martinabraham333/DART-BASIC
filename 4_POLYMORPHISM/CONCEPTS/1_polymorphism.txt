@@ -1,0 +1,21 @@
+ Poly means many and morph means forms. Polymorphism is the ability of an object to take on many forms. 
+ As humans, we have the ability to take on many forms. 
+ We can be a student, a teacher, a parent, a friend, and so on. 
+ Similarly, in object-oriented programming, polymorphism is the ability of an object to take on many forms.
+
+ Polymorphism is the ability of a class method to behave differently based on the object that is calling it,
+
+Polymorphism is a concept in which a method with the same name performs different actions in different classes, 
+especially in subclasses of a parent class.
+
+Imagine you have a function called makeSound().
+
+When a Dog uses it, it barks.
+
+When a Cat uses it, it meows.
+
+When a Cow uses it, it moos.
+
+Even though the function name is the same — makeSound() — the result is different for each animal.
+
+👉 This is called polymorphism — same function name, but different behavior depending on the object.

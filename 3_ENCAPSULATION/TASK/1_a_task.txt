@@ -1,0 +1,35 @@
+
+Advanced Task: Build a BankAccount Management System
+✅ Requirements:
+Create a class BankAccount with the following private properties:
+
+_accountNumber (int)
+_accountHolderName (String)
+_balance (double)
+
+Use:
+Constructor to initialize accountNumber, accountHolderName, and starting balance.
+Getter methods to access all properties.
+Setter for accountHolderName only (allow changing the name).
+
+Create methods:
+deposit(double amount)
+➤ Increase balance, only if amount > 0
+
+withdraw(double amount)
+➤ Decrease balance, only if sufficient balance exists
+
+displayAccountInfo()
+➤ Show account number, holder name, and balance.
+
+Add another class BankSystem
+
+Manages a list of BankAccount objects
+Has methods to:
+addAccount()
+displayAllAccounts()
+searchAccountByNumber(int accountNumber)
+
+💡 Bonus Challenge:
+Implement a named constructor BankAccount.empty() to create an account with default values.
+Prevent direct access to private data from outside the class (enforce encapsulation).
